@@ -32,7 +32,7 @@ public class PostController {
     }
 
     @PostMapping("/post")
-    public String savePost(PostForm form){
+    public String savePost(PostForm form) {
         postRepository.insert(form.getMemo());
         return "redirect:/";
     }
