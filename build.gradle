@@ -26,7 +26,7 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-jar{
+jar {
 	manifest {
 		enabled = false
 	}
